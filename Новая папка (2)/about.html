@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<h1>Страница про нас</h1>
+{% endblock %}
+
+{% block body %}
+<body class="text-center">
+
+<main class="form-signin">
+  <form>
+    <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal"><ya-tr-span data-index="0-0" data-value="Please sign in" data-translation="Пожалуйста войдите в систему" data-type="trSpan">Пожалуйста войдите в систему</ya-tr-span></h1>
+    <label for="inputEmail" class="visually-hidden"><ya-tr-span data-index="1-0" data-value="Email address" data-translation="Адрес электронной почты" data-type="trSpan">Адрес электронной почты</ya-tr-span></label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Эл. адрес" required="" autofocus="">
+    <label for="inputPassword" class="visually-hidden"><ya-tr-span data-index="1-0" data-value="Password" data-translation="пароль" data-type="trSpan">пароль</ya-tr-span></label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Пароль" required="">
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"><ya-tr-span data-index="2-0" data-value=" Remember me
+ " data-translation=" Запомнить меня
+ " data-type="trSpan"> Запомнить меня
+ </ya-tr-span></label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit"><ya-tr-span data-index="3-0" data-value="Sign in" data-translation="Вход" data-type="trSpan">Вход</ya-tr-span></button>
+    <p class="mt-5 mb-3 text-muted">© 2017-2020</p>
+  </form>
+</main>
+
+
+
+
+<div id="tr-popup" class="tr-popup" translate="no" data-hidden="true" data-invalid="true" data-disabled="false" lang="ru"><div class="tr-popup__block"><span class="tr-popup__title_original">Оригинальный текст:</span> <span class="tr-popup__value"></span></div><div class="tr-popup__block tr-popup__block_a"><span class="tr-popup__link tr-popup__link_suggest" data-action="expand">Предложить перевод</span><a href="https://translate.yandex.ru" class="tr-popup__link tr-popup__link_service" target="_blank" data-action="navigate"><span class="tr-popup__logo tr-popup__logo_company"></span><span class="tr-popup__logo tr-popup__logo_service"></span></a></div><div class="tr-popup__block tr-popup__block_b"><textarea class="tr-popup__input" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" maxlength="1000"></textarea><div class="tr-popup__block tr-popup__block_submit"><span role="button" class="tr-popup__button tr-popup__button_submit" data-action="send">Отправить</span></div><div class="tr-popup__overlay tr-popup__overlay_submitted">Спасибо, перевод отправлен</div></div><span role="button" class="tr-popup__button tr-popup__button_close" data-action="clickClose"></span><span role="button" class="tr-popup__button tr-popup__button_menu" data-action="clickMenu"><span class="tr-popup__menu" data-action="disablePopup">Отключить подсказку с оригинальным текстом</span></span><span class="tr-popup__arrow"></span></div></body>
+{% endblock %}
